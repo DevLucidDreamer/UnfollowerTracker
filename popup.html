@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>맞팔 체커</h1>
+    <p class="sub">내가 팔로우하지만 맞팔 안 하는 계정 찾기</p>
+  </header>
+
+  <div id="controls">
+    <button id="runBtn">분석 시작</button>
+    <p id="status" class="status"></p>
+  </div>
+
+  <div id="results" hidden>
+    <div class="summary">
+      <span id="summaryText"></span>
+      <button id="csvBtn" class="link-btn">CSV 내보내기</button>
+    </div>
+    <input id="search" type="search" placeholder="아이디·이름 검색" />
+    <ul id="list"></ul>
+  </div>
+
+  <footer>
+    <p>본인 인스타그램 세션으로만 동작하며, 데이터는 서버로 전송되지 않습니다.</p>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

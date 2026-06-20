@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "맞팔 체커 - 언팔로워 찾기",
+  "version": "1.0.0",
+  "description": "내가 팔로우하지만 나를 맞팔하지 않는 인스타그램 계정을 빠르게 찾아줍니다. (본인 계정 데이터만 분석)",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "맞팔 체커",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+* { box-sizing: border-box; }
+
+body {
+  width: 360px;
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  font-size: 13px;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+header {
+  padding: 14px 16px 10px;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  color: #fff;
+}
+
+header h1 { margin: 0; font-size: 16px; font-weight: 700; }
+header .sub { margin: 4px 0 0; font-size: 11px; opacity: 0.9; }
+
+#controls { padding: 14px 16px; }
+
+#runBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #0095f6;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#runBtn:hover { background: #1877f2; }
+#runBtn:disabled { background: #b2dffc; cursor: default; }
+
+.status { margin: 10px 2px 0; font-size: 12px; color: #555; min-height: 16px; }
+.status.error { color: #d32f2f; }
+
+#results { padding: 0 16px 12px; }
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+.link-btn {
+  border: none;
+  background: none;
+  color: #0095f6;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0;
+}
+
+#search {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+#list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+#list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 4px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#list img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #eee;
+  flex-shrink: 0;
+}
+
+#list .meta { min-width: 0; flex: 1; }
+#list .uname { font-weight: 600; }
+#list .uname a { color: #1a1a1a; text-decoration: none; }
+#list .uname a:hover { text-decoration: underline; }
+#list .fname {
+  color: #777;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge {
+  font-size: 10px;
+  color: #8e8e8e;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin-left: 4px;
+}
+
+footer {
+  padding: 8px 16px 12px;
+  font-size: 10px;
+  color: #999;
+  border-top: 1px solid #f0f0f0;
+}
+footer p { margin: 0; }

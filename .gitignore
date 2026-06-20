@@ -1,0 +1,14 @@
+# 빌드 산출물
+dist/
+
+# 빌드 생성물(소스에서 재생성 가능)
+bookmarklet/bookmarklet.txt
+bookmarklet/shortcut-payload.js
+
+# 전송용 임시 압축물
+*.zip
+
+# 의존성 / OS
+node_modules/
+.DS_Store
+Thumbs.db
