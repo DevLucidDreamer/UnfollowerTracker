@@ -113,5 +113,11 @@ The single purpose of this extension is to compute and display the list of accou
 ---
 
 ## 개인정보 처리방침 URL
-GitHub Pages 등으로 `store/privacy.html` 을 호스팅한 뒤 그 URL을 입력하세요.
-예: `https://<your-id>.github.io/UnfollowerTracker/store/privacy.html`
+```
+https://devluciddreamer.github.io/UnfollowerTracker/store/privacy.html
+```
+
+## (참고) 모바일 설치 안내 페이지
+```
+https://devluciddreamer.github.io/UnfollowerTracker/bookmarklet/install.html
+```
